@@ -1,10 +1,10 @@
-'use strict'
+'use strict';
 
 //first exr is to swap two variables
 
 let a = 17;
 let b = 74;
-[a, b] = [b, a]
+[a, b] = [b, a];
 console.log(a);
 console.log(b);//the way by applying destructuring assigment
 
@@ -16,7 +16,7 @@ if(lang == 'ru') {
 
 if(lang == 'en') {
      arr = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];
-}
+};
 console.log(arr);
 // by using 2if conditional statement
 
@@ -30,7 +30,7 @@ switch(lang2) {
     case 'en': 
         arr = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];
         break;
-}
+};
 console.log(arr);
 //by using switch statement
 
@@ -38,9 +38,9 @@ let lang3 = 'ru';
 let arr = {
     'ru': ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'],
     'en': ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'],
-}
+};
 alert(arr[lang3]);
-// by using multidimensional array(многосерный массив)
+// by using multidimensional array(многоmерный массив)
 
 
 

@@ -39,7 +39,7 @@ let arr = {
     'ru': ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'],
     'en': ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'],
 }
-alert(arr[lang3])
+alert(arr[lang3]);
 // by using multidimensional array(многосерный массив)
 
 
